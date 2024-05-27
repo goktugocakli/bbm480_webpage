@@ -55,6 +55,30 @@ section h2 {
     padding-bottom: 0.5em;
 }
 
+#poster img {
+    display: block;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+}
+
+#poster p {
+    text-align: start;
+}
+
+#poster a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #4CAF50;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+#poster a:hover {
+    background-color: #4CAF50;
+    color: #1E1E1E;
+}
+
 footer {
     background-color: #333;
     color: white;
